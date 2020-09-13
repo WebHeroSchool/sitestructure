@@ -22,14 +22,13 @@ body {
    justify-content: space-between;
 }
 .logo, .menu {
-  display: inline-block;
+   display: inline-block;
 }
 .menu {
    display: flex;
    align-items: center;
 }
 .logo {
-   margin-right: 63%;
    padding: 40px 0;
    border: dashed 1px red;
 }
