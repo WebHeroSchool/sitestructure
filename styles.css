@@ -1,12 +1,42 @@
-header {
+.header {
+  font-family: 'PT Sans', sans-serif;
+}
+.main-content__subtitle {
+  font-family: 'PT Sans', sans-serif;
+  }
+.button {
   font-family: 'PT Sans', sans-serif;
 }
 h1 {
   font-family: 'Roboto', sans-serif;
 }
-p {
-  font-family: 'PT Sans', sans-serif;
+body {
+  margin: 0;
 }
-button {
-  font-family: 'PT Sans', sans-serif;
+.wrapper {
+   margin: auto;
+   width: 80%;
+}
+.header {
+   display: flex;
+   justify-content: space-between;
+}
+.logo, .menu {
+  display: inline-block;
+}
+.menu {
+   display: flex;
+   align-items: center;
+}
+.logo {
+   margin-right: 63%;
+   padding: 40px 0;
+   border: dashed 1px red;
+}
+.menu__item {
+   padding: 0 13px;
+   border: dashed 1px red;
+}
+.menu__item:last-child {
+   padding-right: 0;
 }
