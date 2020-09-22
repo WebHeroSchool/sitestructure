@@ -19,24 +19,24 @@ body {
   margin: 0;
 }
 .wrapper {
-   margin: auto;
-   width: 80%;
+  margin: auto;
+  width: 80%;
 }
 .header {
-   padding: 40px 0;
-   display: flex;
-   justify-content: space-between;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
 }
 .logo, .menu {
-   display: inline-block;
+  display: inline-block;
 }
 .menu {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
 .menu__item {
-   padding: 0 13px;
+  padding: 0 13px;
 }
 .menu__item:last-child {
-   padding-right: 0;
+  padding-right: 0;
 }
