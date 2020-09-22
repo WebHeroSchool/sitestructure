@@ -1,12 +1,42 @@
-header {
-  font-family: 'PT Sans', sans-serif;
-}
-h1 {
+.logo {
+  width: 190px;
+  height: 35px;
+  background: url('image/logo.svg');
+  }
+.menu {
   font-family: 'Roboto', sans-serif;
 }
-p {
-  font-family: 'PT Sans', sans-serif;
+.main-content__title {
+  font-family: 'PT Serif', serif;
 }
-button {
-  font-family: 'PT Sans', sans-serif;
+.main-content__subtitle {
+  font-family: 'Roboto', sans-serif;
+  }
+.button {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.logo, .menu {
+  display: inline-block;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
